@@ -8,7 +8,12 @@ This project aims at building a model for predicting the level of difficulty of 
 In this project we collected a set of labelled data for French learners, on which we will apply a natural language processing model to estimate the level of difficulty of unseen French sentences.
 
 ## Method 💡
-Xia and colleagues cast the problem as a supervised machine learning problem (using the labelled data), with reading difficulty modelled as a continuous rather than discrete variable (recognizing that text difficulty within a level can also vary). For them readability assessment is a ranking problem. François (2015) shows that others have used a classification model instead. The support vector machine algorith (SVM) has proven very successful. 
+Xia and colleagues cast the problem as a supervised machine learning problem (using the labelled data), with reading difficulty modelled as a continuous rather than discrete variable (recognizing that text difficulty within a level can also vary). For them readability assessment is a ranking problem. François (2015) shows that others have used a classification model instead. The support vector machine algorith (SVM) has proven very successful.
+
+The findings of Lei and Huang (2017) suggest that a feature-based logistic regression model show good performance for text classification problems. In our case, the described model with word-level n-gram features and lexicon derived features, could be a appropriate way to deal with cognats.
+
+Overall, we have decided to build a text-classification model with Google AutoML and to evaluate our model with the metrics described by Guyon et al.(2015). To improve the performance and accuracy of our model, we ave decided to  add a feature-based logistic regression model and to analyse the problem on the world level. 
+
 
 ## Data 📊
 The dataset to train and test the model include labeled sentences in French. We collected a set of over 1000 annotated sentences, while keeping a balance in the difficulty levels from A1 to C2 (using as a reference the Common European Framework of Reference, CEFR). The sentences come from a rich mix of sources such as annotated exam preparation papers, corrected grammar exercises from text books, labelled newspapers and transcripts of radio interviews:
@@ -29,6 +34,11 @@ A generic framework that asseses the level of difficulty of a foreign text can i
 ## Bibliography
 François (2015). When readability meets computational linguistics: a new paradigm in readability, Rev. franç. de linguistique appliquée, 2015, XX-2 (79-97).
 
+Gao, Lei, and Ruihong Huang. "Detecting online hate speech using context aware models." arXiv preprint arXiv:1710.07395 (2017).
+
+Guyon, Isabelle, et al. "AutoML challenge 2015: Design and first results." Proc. of AutoML (2015).
+
 Vlachos and Lappas (2011). Ranking German Texts by Comprehensibility for Foreign Document Retrieval. SIGIR 2011 Workshop on Enriching Information Retrieval (ENIR 2011), July 28, 2011, Beijing, China.
 
 Xia, Kochmar and Briscoe (2016). Text Readability Assessment for Second Language Learners. Proceedings of the 11th workshop on Innovative Use of NLP for Building Educational Applications, San Diego, California, June 16, 2016.
+
