@@ -8,6 +8,7 @@ This project aims at building a model for predicting the level of difficulty of 
 In this project we collected a set of labelled data for French learners, on which we will apply a natural language processing model to estimate the level of difficulty of unseen French sentences.
 
 ## Method 💡
+Xia and colleagues cast the problem as a supervised machine learning problem (using the labelled data), with reading difficulty modelled as a continuous rather than discrete variable (recognizing that text difficulty within a level can also vary). For them readability assessment is a ranking problem. François (2015) shows that others have used a classification model instead. The support vector machine algorith (SVM) has proven very successful. 
 
 ## Data 📊
 The dataset to train and test the model include labeled sentences in French. We collected a set of over 1000 annotated sentences, while keeping a balance in the difficulty levels from A1 to C2 (using as a reference the Common European Framework of Reference, CEFR). The sentences come from a rich mix of sources such as annotated exam preparation papers, corrected grammar exercises from text books, labelled newspapers and transcripts of radio interviews:
