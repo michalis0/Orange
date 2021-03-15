@@ -41,4 +41,4 @@ ly, the most accurate approach was hierarchical classification.
 However, when the two text sets were combined, one-
 vs-one, one-vs-all, and hierarchical approaches performed
 similarly."
-- 
+
