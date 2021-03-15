@@ -31,7 +31,7 @@ learning approach and algorithm works best for particular
 datasets. The authors encourage more work in this area to
 help suggest which types of algorithms work best as a func-
 tion of the type of dataset."
-## conclusion 
+## Conclusion 
 - "These experiments
 demonstrated the potential of using hierarchical approaches
 in text difficulty classification, but also indicated that no
