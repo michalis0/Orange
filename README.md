@@ -42,3 +42,4 @@ Vlachos and Lappas (2011). Ranking German Texts by Comprehensibility for Foreign
 
 Xia, Kochmar and Briscoe (2016). Text Readability Assessment for Second Language Learners. Proceedings of the 11th workshop on Innovative Use of NLP for Building Educational Applications, San Diego, California, June 16, 2016.
 
+Balyan, Renu, et al. "Comparing Machine Learning Classification Approches for Predicting Expository Text Difficulty." FLAIRS-31 (2018).
