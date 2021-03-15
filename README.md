@@ -22,7 +22,7 @@ The dataset to train and test the model include labeled sentences in French. We 
 - https://savoirs.rfi.fr/en/recherche/rubrique/apprendre/thematique/culture-2717
 - La Grammaire des Premiers Temps B1-B2, corrigés
 
-We performed some preliminary cleaning of the data, removing incomplete sentences, correct spelling mistakes and removing copyright and other information included in the labelled French text, but that did not include actual French sentences.
+We performed some preliminary cleaning of the data, removing incomplete sentences, correct spelling mistakes and removing copyright and other information included in the labelled French text, but that did not include actual French sentences. We also checked if we have duplicates in our dataset, found 5 and added replacement sentences.
 
 ## Related Work/ literature review 📚
 Our review of the literature found that what makes a text more readable depends on the needs and characteristics of the target readers (Xia, Kochmar and Briscoe, 2016). Depending on the target audience, one might choose some readability criteria over others. The case of adult foreign language learners is different from say the case of adolescent native speakers. Xia and colleagues argue that this aspect needs to be taken into account account when collecting the labelled data for training the model. It is better if the collected texts and sentences correspond to text labelled for the purpose of teaching/learning French as a second language, which corresponds with our approach.
