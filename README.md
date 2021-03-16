@@ -20,6 +20,7 @@ The dataset to train and test the model include labeled sentences in French. We 
 - http://www.delfdalf.fr/
 - https://www.courrierinternational.com/
 - https://savoirs.rfi.fr/en/recherche/rubrique/apprendre/thematique/culture-2717
+- https://www.lemonde.fr/
 - La Grammaire des Premiers Temps B1-B2, corrigés
 
 We performed some preliminary cleaning of the data, removing incomplete sentences, correct spelling mistakes and removing copyright and other information included in the labelled French text, but that did not include actual French sentences. We also checked if we have duplicates in our dataset, found 5 and added replacement sentences.
